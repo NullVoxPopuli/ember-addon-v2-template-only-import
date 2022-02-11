@@ -45,7 +45,9 @@
   "devDependencies": {
     "@babel/core": "7.16.12",
     "@babel/plugin-proposal-class-properties": "7.16.7",
+    "@babel/plugin-proposal-decorators": "^7.17.2",
     "@babel/plugin-syntax-decorators": "7.16.7",
+    "@babel/preset-env": "^7.16.11",
     "@babel/preset-typescript": "7.16.7",
     "@embroider/addon-dev": "1.0.0",
     "@glimmer/compiler": "^0.83.1",
@@ -95,10 +97,8 @@
     "type": "addon",
     "main": "./config/addon-main.cjs",
     "app-js": {
-      "./components/demo/index.ts": "./dist/_app_/components/demo/index.ts",
-      "./components/flat-demo.ts": "./dist/_app_/components/flat-demo.ts",
-      "./helpers/stringify.js": "./dist/_app_/helpers/stringify.js",
-      "./instance-initializers/example-instance-initializer.ts": "./dist/_app_/instance-initializers/example-instance-initializer.ts"
+      "./components/demo/index.js": "./dist/_app_/components/demo/index.js",
+      "./components/flat-demo.js": "./dist/_app_/components/flat-demo.js"
     }
   },
   "volta": {
