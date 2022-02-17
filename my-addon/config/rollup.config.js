@@ -19,7 +19,7 @@ export default {
     // These are the modules that should get reexported into the traditional
     // "app" tree. Things in here should also be in publicEntrypoints above, but
     // not everything in publicEntrypoints necessarily needs to go here.
-    addon.appReexports(['components/**/*.js']),
+    addon.appReexports(['components/**/*.js', 'components/demo/out.hbs']),
 
     // Ensure that standalone .hbs files are properly integrated as Javascript.
     addon.hbs(),
