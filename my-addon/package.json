@@ -97,7 +97,9 @@
     "main": "./config/addon-main.cjs",
     "app-js": {
       "./components/demo/index.js": "./dist/_app_/components/demo/index.js",
-      "./components/flat-demo.js": "./dist/_app_/components/flat-demo.js"
+      "./components/demo/out.js": "./dist/_app_/components/demo/out.js",
+      "./components/flat-demo.js": "./dist/_app_/components/flat-demo.js",
+      "./components/to-demo.js": "./dist/_app_/components/to-demo.js"
     }
   },
   "volta": {
